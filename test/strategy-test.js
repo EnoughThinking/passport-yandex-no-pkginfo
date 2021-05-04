@@ -1,7 +1,7 @@
 var vows = require('vows');
 var assert = require('assert');
 var util = require('util');
-var YandexStrategy = require('passport-yandex/strategy');
+var YandexStrategy = require('../lib/passport-yandex');
 
 
 vows.describe('YandexStrategy').addBatch({

@@ -1,7 +1,7 @@
 var express = require('express')
   , passport = require('passport')
   , util = require('util')
-  , YandexStrategy = require('passport-yandex').Strategy;
+  , YandexStrategy = require('passport-yandex-no-pkginfo').Strategy;
 
 var YANDEX_CLIENT_ID = "--insert-yandex-client-id-here--"
 var YANDEX_CLIENT_SECRET = "--insert-yandex-client-secret-here--";

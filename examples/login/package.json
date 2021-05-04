@@ -1,10 +1,10 @@
 {
-  "name": "passport-yandex-examples-login",
+  "name": "passport-yandex-no-pkginfo-examples-login",
   "version": "0.0.0",
   "dependencies": {
     "express": ">= 0.0.0",
     "ejs": ">= 0.0.0",
     "passport": ">= 0.0.0",
-    "passport-yandex": ">= 0.0.0"
+    "passport-yandex-no-pkginfo": ">= 0.0.0"
   }
 }

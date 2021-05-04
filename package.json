@@ -1,5 +1,5 @@
 {
-  "name": "passport-yandex",
+  "name": "passport-yandex-no-pkginfo",
   "version": "0.0.5",
   "description": "Yandex authentication strategy for Passport.",
   "author": {
@@ -7,22 +7,31 @@
     "email": "gurugray@yandex.ru",
     "url": "http://gurugray.ru/"
   },
+  "contributors": [
+    {
+      "name": "Sergey Sergeev",
+      "email": "gurugray@yandex.ru"
+    },
+    {
+      "name": "EndyKaufman",
+      "email": "admin@site15.ru"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/gurugray/passport-yandex.git"
+    "url": "git://github.com/endykaufman/passport-yandex-no-pkginfo.git"
   },
   "bugs": {
-    "url": "http://github.com/gurugray/passport-yandex/issues"
+    "url": "http://github.com/endykaufman/passport-yandex-no-pkginfo/issues"
   },
-  "main": "./lib/passport-yandex",
+  "main": "./lib/passport-yandex-no-pkginfo",
   "typings": "./typings/index.d.ts",
   "dependencies": {
-    "pkginfo": "0.3.x",
     "passport-oauth": "1.0.x"
   },
   "devDependencies": {
-    "@types/passport": "^1.0.0",
-    "vows": "~0.7.0"
+    "@types/passport": "^1.0.6",
+    "vows": "~0.8.3"
   },
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"

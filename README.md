@@ -11,7 +11,7 @@ unobtrusively integrated into any application or framework that supports
 
 ## Installation
 
-    $ npm install passport-yandex
+    $ npm install passport-yandex-no-pkginfo
 
 ## Usage
 
@@ -58,18 +58,18 @@ application:
 
 ## Examples
 
-For a complete, working example, refer to the [login example](https://github.com/gurugray/passport-yandex/tree/master/examples/login).
+For a complete, working example, refer to the [login example](https://github.com/endykaufman/passport-yandex-no-pkginfo/tree/master/examples/login).
 
 ## Tests
 
     $ npm install --dev
     $ make test
 
-[![Build Status](https://secure.travis-ci.org/gurugray/passport-yandex.png)](http://travis-ci.org/gurugray/passport-yandex)
+[![Build Status](https://secure.travis-ci.org/endykaufman/passport-yandex-no-pkginfo.png)](http://travis-ci.org/endykaufman/passport-yandex-no-pkginfo)
 
 ## Credits
 
-  - [Sergey Sergeev](http://github.com/gurugray)
+  - [Sergey Sergeev](http://github.com/endykaufman)
   - [Jared Hanson](http://github.com/jaredhanson)
 
 ## License
