@@ -1,6 +1,6 @@
 {
   "name": "passport-yandex-no-pkginfo",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Yandex authentication strategy for Passport.",
   "author": {
     "name": "Sergey Sergeev",
